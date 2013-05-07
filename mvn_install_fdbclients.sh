@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 FDB_CLIENT_JAR=fdb-java-0.2.1-2-linux-x64.jar
 FDB_JAVADOC_JAR=fdb-java-0.2.1-3-javadoc.jar
