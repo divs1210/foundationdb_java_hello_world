@@ -2,8 +2,7 @@
 
 A little scaffolding to help you get started with [FoundationDB](http://foundationdb.com/) in Java included is:
 
-* The Linux jars (other Jars can also [be downloaded](http://foundationdb.com/get/))
-* A script to install them into your pom repo
+* A script to install FoundationDB's [client jars] (http://foundationdb.com/get/) into your pom repo
 * A pom.xml with the foundationdb jars listed as dependencies
 
 ## To use
@@ -18,4 +17,6 @@ A little scaffolding to help you get started with [FoundationDB](http://foundati
 
 mvn eclipse
 
-5. Load the eclipse project! You should now be able to play with foundationdb
+5. Load the eclipse project! You should now be able to play with foundationdb -- start typing com.foundationdb
+
+6. Explore [the javadocs](http://foundationdb.com/documentation/beta1/javadoc/index.html), etc, have fun!
