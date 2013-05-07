@@ -9,7 +9,7 @@ This project is some scaffolding to help you get started with [FoundationDB](htt
 ## To use
 
 1. Sign-up to [get FoundationDB](http://foundationdb.com/get/) and download the [FoundationDB server and java client jars](http://community.foundationdb.com/downloads/)
-2. [Install FoundationDB](http://foundationdb.com/documentation/beta1/getting-started-linux.html) on your Ubuntu 12.04 machine
+2. [Install/Launch FoundationDB](http://foundationdb.com/documentation/beta1/getting-started-linux.html) on your Ubuntu 12.04 machine.
 3. Install the FoundationDB client jars in your mvn repository:
 
     ./mvn_install_fdbclients.sh fdb-java-0.2.1-2-linux-x64.jar fdb-java-0.2.1-3-javadoc.jar`
