@@ -4,6 +4,7 @@ A little scaffolding to help you get started with [FoundationDB](http://foundati
 
 * A script to install FoundationDB's [client jars] (http://foundationdb.com/get/) into your pom repo
 * A pom.xml with the foundationdb jars listed as dependencies
+* FoundationDB's hello world code, contained in com.o19s.Example for you to hack on!
 
 ## To use
 
@@ -13,10 +14,13 @@ A little scaffolding to help you get started with [FoundationDB](http://foundati
 
 `./mvn_install_fdbclients.sh fdb-java-0.2.1-2-linux-x64.jar fdb-java-0.2.1-3-javadoc.jar`
 
-4. Optionally bootstrap a Linux project
+4. Optionally bootstrap a Linux project to import into Eclipse
 
 mvn eclipse
 
-5. Load the eclipse project! You should now be able to play with foundationdb -- start typing com.foundationdb
+5. Build/Run via Maven
+
+`mvn compile
+`mvn exec:java -Dexec.mainClass="com.o19s.Example"
 
 6. Explore [the javadocs](http://foundationdb.com/documentation/beta1/javadoc/index.html), etc, have fun!
