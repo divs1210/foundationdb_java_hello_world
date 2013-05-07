@@ -1,4 +1,5 @@
 ## A little help to get you started with FoundationDB
+**(in part to help with [Friday's FoundationDB hackathon](http://bit.ly/ZM8ADK) in Charlottesville VA that you should come to!)**
 
 This project is some scaffolding to help you get started with [FoundationDB](http://foundationdb.com/) in Java, including:
 
